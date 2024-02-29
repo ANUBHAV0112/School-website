@@ -1,0 +1,26 @@
+/* Header.css */
+
+.nav-link:hover,
+.nav-link:focus {
+  text-shadow: 0 0 5px rgb(255, 2, 2); 
+}
+
+.navbar-nav {
+   width: 90%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+    
+  }
+
+.navbar-brand {
+    margin-left: 150px;
+  }
+
+
+.navbar{
+  position: fixed  !important;
+  background-color: aliceblue;
+
+}
+

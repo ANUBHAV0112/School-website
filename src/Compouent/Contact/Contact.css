@@ -1,0 +1,62 @@
+.contact-container {
+    text-align: center;
+    margin-top: 50px; 
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .box {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .box svg {
+    margin-bottom: 10px; 
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .navbar {
+    margin-bottom: 0; 
+  }
+  
+  .contact-container {
+    text-align: center;
+    margin-top: 0; 
+    padding-top: 50px; 
+    background-image: url('../Images/School\ 1.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .box svg {
+    margin-bottom: 10px;
+  }
+
+  

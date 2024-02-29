@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .carousel-item img{
+  width: 100%;
+  }
+  .image {
+    flex: 1;
+    box-shadow: 10px 7px 10px orange;
+  }
+
+  .text {
+    flex: 2;
+  }
+  
+  .text h2 {
+    margin-top: 0;
+  }
+  
+  .values {
+    display: flex;
+  }
+  
+  .column {
+    flex: 1;
+  }
+  
+  
+  
+  @keyframes rotateImage {
+    from {
+      transform: rotate(0deg); 
+    }
+    to {
+      transform: rotate(10deg); 
+    }
+  }
+  
+  .fade-in-text {
+    animation: fadeInText 2s ease-out; 
+  }
+  
+  @keyframes fadeInText {
+    from {
+      opacity: 0; 
+    }
+    to {
+      opacity: 1; 
+    }
+  }
+  
+  
+  
+  .fade-in-text:hover {
+    color: red; 
+  }
+  
+  
+  
+  .rotate-image {
+    transition: transform 0.5s ease;
+  }
+  
+  .rotate-image:hover {
+    transform: rotateY(90deg); 
+  }
+  

@@ -1,0 +1,53 @@
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    margin-left: 150px;
+  }
+  
+  .content-container {
+    display: flex;
+    margin-right: 400px;
+  }
+  
+  .text,
+  .text1,
+  .text2 {
+    margin-right: 20px;
+  }
+
+  .text p {
+    font-size: 28px; 
+    font-weight: bold; 
+  }
+  
+  .text1 p,
+  .text2 p {
+    font-size: 28px; 
+  }
+  
+  .nav-link {
+    display: block;
+    margin-top: 5px;
+    color: black;
+  }
+  
+  .text3 {
+    margin-left: auto;
+  }
+  
+  .nav-link {
+    display: block;
+    margin-top: 5px;
+    color: black;
+  }
+
+.text p,
+.text1 p,
+.text2 p {
+  font-weight: bold;
+}

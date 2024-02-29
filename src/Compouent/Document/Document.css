@@ -1,0 +1,30 @@
+.document-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .document-content {
+    text-align: center;
+  }
+  
+  .document-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .document-item {
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #007bff; 
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px; 
+    background-color: #f0f0f0; 
+  }
+  
+  .document-heading {
+    color: #007bff; 
+  }
+  
